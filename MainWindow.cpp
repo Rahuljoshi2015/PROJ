@@ -56,7 +56,7 @@ void MainWindow::setupParking(int nbrPlaces) {
         spotLabels.push_back(textItem);
     }
 
-    // Initialize the parking logic
+    // Initialize the parking logic.
     parking = new Parking(nbrPlaces, new DefaultStrategy(), this, syncStrategy);
 
     // Add all cars with delay
