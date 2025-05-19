@@ -48,7 +48,7 @@ void Parking::stationner(vehicle *vehicle) {
         } else if (syncStrategy == 2) {
             placesMutex.unlock();       // Release mutex if locked
         }
-        return; // Exit early to avoid crashing
+        return; // Exit early to avoid crashing.
     }
 
     placeOccupe[place] = true;
