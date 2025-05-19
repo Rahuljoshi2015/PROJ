@@ -11,7 +11,6 @@ void vehicle::run() {
     try {
         parking->stationner(this);
         QThread::sleep(QRandomGenerator::global()->bounded(2) + 10);  // Simulate the time the car stays parked.
-        
         parking->sortir(this);
     } catch (const std::exception &e) {
         qDebug() << e.what();
