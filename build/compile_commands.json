@@ -1,44 +1,44 @@
 [
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\ParkingSimulator_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\build\\ParkingSimulator_autogen\\mocs_compilation.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/mocs_compilation.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\ParkingSimulator_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\build\\ParkingSimulator_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/ParkingSimulator_autogen/mocs_compilation.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\main.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\main.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/main.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\main.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\main.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/main.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\MainWindow.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\MainWindow.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/MainWindow.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\MainWindow.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\MainWindow.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/MainWindow.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/MainWindow.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\Parking.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\Parking.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/Parking.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\Parking.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\Parking.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/Parking.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\Vehicle.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\Vehicle.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/Vehicle.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\Vehicle.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\Vehicle.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/Vehicle.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/Vehicle.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\DefaultStrategy.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\DefaultStrategy.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/DefaultStrategy.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\DefaultStrategy.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\DefaultStrategy.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/DefaultStrategy.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/DefaultStrategy.cpp.obj"
 },
 {
-  "directory": "C:/Users/rahul/ParkingSimulatorCpp/build",
-  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\CustomRectangle.cpp.obj -c C:\\Users\\rahul\\ParkingSimulatorCpp\\CustomRectangle.cpp",
-  "file": "C:/Users/rahul/ParkingSimulatorCpp/CustomRectangle.cpp",
+  "directory": "C:/Users/rahul/parkitrightupdate/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ParkingSimulator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ParkingSimulator.dir\\CustomRectangle.cpp.obj -c C:\\Users\\rahul\\parkitrightupdate\\CustomRectangle.cpp",
+  "file": "C:/Users/rahul/parkitrightupdate/CustomRectangle.cpp",
   "output": "CMakeFiles/ParkingSimulator.dir/CustomRectangle.cpp.obj"
 }
 ]

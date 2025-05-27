@@ -1,5 +1,5 @@
-C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/EWIEGA46WW/moc_vehicle.cpp: C:/Users/rahul/ParkingSimulatorCpp/vehicle.h \
-  C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/moc_predefs.h \
+C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/EWIEGA46WW/moc_Vehicle.cpp: C:/Users/rahul/parkitrightupdate/Vehicle.h \
+  C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/moc_predefs.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QThread \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \

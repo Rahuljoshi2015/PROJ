@@ -1,15 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
-project(ParkingSimulator)
+project(ParkingSimulator LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
-# Qt path fix
+
+# Qt path
 set(CMAKE_PREFIX_PATH "C:/Qt/6.9.0/mingw_64/lib/cmake")
 
-# Qt setup
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+# Find Qt6 components
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
 # Source files
 set(SOURCES
@@ -25,7 +27,7 @@ set(SOURCES
 set(HEADERS
     MainWindow.h
     Parking.h
-    vehicle.h
+    Vehicle.h
     IStrategy.h
     DefaultStrategy.h
     CustomRectangle.h
@@ -34,5 +36,5 @@ set(HEADERS
 # Executable
 add_executable(ParkingSimulator ${SOURCES} ${HEADERS})
 
-# Link Qt6
-target_link_libraries(ParkingSimulator Qt6::Widgets)
+# Link Qt6 libraries
+target_link_libraries(ParkingSimulator PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)

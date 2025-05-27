@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rahul\ParkingSimulatorCpp
+CMAKE_SOURCE_DIR = C:\Users\rahul\parkitrightupdate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rahul\ParkingSimulatorCpp\build
+CMAKE_BINARY_DIR = C:\Users\rahul\parkitrightupdate\build
 
 # Utility rule file for ParkingSimulator_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/ParkingSimulator_autogen: ParkingSimulator_autogen/timestamp
 ParkingSimulator_autogen/timestamp: C:/Qt/6.9.0/mingw_64/bin/moc.exe
 ParkingSimulator_autogen/timestamp: C:/Qt/6.9.0/mingw_64/bin/uic.exe
 ParkingSimulator_autogen/timestamp: CMakeFiles/ParkingSimulator_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\rahul\ParkingSimulatorCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ParkingSimulator"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rahul/ParkingSimulatorCpp/build/CMakeFiles/ParkingSimulator_autogen.dir/AutogenInfo.json Debug
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\rahul\parkitrightupdate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ParkingSimulator"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rahul/parkitrightupdate/build/CMakeFiles/ParkingSimulator_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/timestamp
 
 CMakeFiles/ParkingSimulator_autogen.dir/codegen:
 .PHONY : CMakeFiles/ParkingSimulator_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/ParkingSimulator_autogen.dir/clean:
 .PHONY : CMakeFiles/ParkingSimulator_autogen.dir/clean
 
 CMakeFiles/ParkingSimulator_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rahul\ParkingSimulatorCpp C:\Users\rahul\ParkingSimulatorCpp C:\Users\rahul\ParkingSimulatorCpp\build C:\Users\rahul\ParkingSimulatorCpp\build C:\Users\rahul\ParkingSimulatorCpp\build\CMakeFiles\ParkingSimulator_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rahul\parkitrightupdate C:\Users\rahul\parkitrightupdate C:\Users\rahul\parkitrightupdate\build C:\Users\rahul\parkitrightupdate\build C:\Users\rahul\parkitrightupdate\build\CMakeFiles\ParkingSimulator_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ParkingSimulator_autogen.dir/depend
 

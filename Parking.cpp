@@ -10,6 +10,7 @@
 #include <QMetaObject>
 #include <QtMath>
 #include <QDebug>
+#include <QRandomGenerator>
 
 Parking::Parking(int nbrPlaces, IStrategy *strategy, MainWindow *gui, int syncStrategy)
     : QObject(nullptr),
@@ -21,9 +22,11 @@ Parking::Parking(int nbrPlaces, IStrategy *strategy, MainWindow *gui, int syncSt
       syncStrategy(syncStrategy),
       gui(gui)
 {
+    tempPlace.resize(nbrPlaces);
+    placeOccupe.resize(nbrPlaces);
     for (int i = 0; i < nbrPlaces; i++) {
-        tempPlace.append((i % 5 + 1) * 1000L);
-        placeOccupe.append(false);
+        tempPlace[i] = QRandomGenerator::global()->bounded(50, 60); // 5-25 seconds
+        placeOccupe[i] = false;
     }
 }
 
@@ -42,13 +45,12 @@ void Parking::stationner(vehicle *vehicle) {
 
     if (place == -1) {
         qDebug() << "No parking spot available for car" << vehicle->getNom();
-
         if (syncStrategy == 1) {
-            placesSemaphore.release();  // Release if semaphore was used
+            placesSemaphore.release();
         } else if (syncStrategy == 2) {
-            placesMutex.unlock();       // Release mutex if locked
+            placesMutex.unlock();
         }
-        return; // Exit early to avoid crashing.
+        return;
     }
 
     placeOccupe[place] = true;
@@ -58,9 +60,15 @@ void Parking::stationner(vehicle *vehicle) {
     int row = place / numColumns;
 
     QMetaObject::invokeMethod(gui, [=]() {
-        gui->setRectangleColor(col, row, Qt::red);
+        gui->setRectangleColor(col, row, Qt::yellow);
         gui->setRectangleText(col, row, vehicle->getNom());
-    });
+    }, Qt::QueuedConnection);
+
+    QThread::msleep(3000);
+
+    QMetaObject::invokeMethod(gui, [=]() {
+        gui->setRectangleColor(col, row, Qt::red);
+    }, Qt::QueuedConnection);
 
     qDebug() << "Car" << vehicle->getNom() << "parked at spot" << place;
     vehicle->setPlace(place);
@@ -71,8 +79,11 @@ void Parking::stationner(vehicle *vehicle) {
 
     long parkingWaitTime = timer.elapsed();
     qDebug() << "Wait time for car" << vehicle->getNom() << ":" << parkingWaitTime << "milliseconds";
+    QMetaObject::invokeMethod(gui, [=]() {
+        gui->totalWaitTime += parkingWaitTime;
+        gui->updateStatus();
+    }, Qt::QueuedConnection);
 }
-
 
 void Parking::sortir(vehicle *vehicle) {
     qDebug() << "Car" << vehicle->getNom() << "is trying to exit";
@@ -94,14 +105,12 @@ void Parking::sortir(vehicle *vehicle) {
     int col = place % numColumns;
     int row = place / numColumns;
 
-    // Step 1: Turn the spot green and remove label
     QMetaObject::invokeMethod(gui, [=]() {
         gui->setRectangleColor(col, row, Qt::green);
         gui->setRectangleText(col, row, "");
-    });
+    }, Qt::QueuedConnection);
 
-    // Step 2: Artificial delay to show that it's free
-    QThread::msleep(300);  // ← Add a small pause before releasing
+    QThread::msleep(3000);
 
     qDebug() << "Car" << vehicle->getNom() << "has exited!";
 

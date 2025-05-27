@@ -1,5 +1,5 @@
-C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/EWIEGA46WW/moc_Parking.cpp: C:/Users/rahul/ParkingSimulatorCpp/Parking.h \
-  C:/Users/rahul/ParkingSimulatorCpp/build/ParkingSimulator_autogen/moc_predefs.h \
+C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/EWIEGA46WW/moc_Parking.cpp: C:/Users/rahul/parkitrightupdate/Parking.h \
+  C:/Users/rahul/parkitrightupdate/build/ParkingSimulator_autogen/moc_predefs.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QMutex \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QSemaphore \

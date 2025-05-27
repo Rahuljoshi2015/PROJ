@@ -1,6 +1,6 @@
 CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj: \
- C:\Users\rahul\ParkingSimulatorCpp\Parking.cpp \
- C:\Users\rahul\ParkingSimulatorCpp\Parking.h \
+ C:\Users\rahul\parkitrightupdate\Parking.cpp \
+ C:\Users\rahul\parkitrightupdate\Parking.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qobjectdefs.h \
@@ -330,7 +330,7 @@ CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QMutex \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qmutex.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtsan_impl.h \
- C:\Users\rahul\ParkingSimulatorCpp\vehicle.h \
+ C:\Users\rahul\parkitrightupdate\vehicle.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QThread \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qthread.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
@@ -343,8 +343,8 @@ CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qstring.h \
- C:\Users\rahul\ParkingSimulatorCpp\IStrategy.h \
- C:\Users\rahul\ParkingSimulatorCpp\MainWindow.h \
+ C:\Users\rahul\parkitrightupdate\IStrategy.h \
+ C:\Users\rahul\parkitrightupdate\MainWindow.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -411,16 +411,29 @@ CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:\Users\rahul\parkitrightupdate\CustomRectangle.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qpainterpath.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/QColor \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qcolor.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QElapsedTimer \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qelapsedtimer.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QFile \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qfiledevice.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
@@ -458,4 +471,15 @@ CMakeFiles/ParkingSimulator.dir/Parking.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QtMath \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qmath.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QDebug \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QRandomGenerator \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qrandom.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc

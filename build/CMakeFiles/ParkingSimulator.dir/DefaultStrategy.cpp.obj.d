@@ -1,7 +1,7 @@
 CMakeFiles/ParkingSimulator.dir/DefaultStrategy.cpp.obj: \
- C:\Users\rahul\ParkingSimulatorCpp\DefaultStrategy.cpp \
- C:\Users\rahul\ParkingSimulatorCpp\DefaultStrategy.h \
- C:\Users\rahul\ParkingSimulatorCpp\IStrategy.h \
+ C:\Users\rahul\parkitrightupdate\DefaultStrategy.cpp \
+ C:\Users\rahul\parkitrightupdate\DefaultStrategy.h \
+ C:\Users\rahul\parkitrightupdate\IStrategy.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QVector \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qvector.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qlist.h \

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rahul\ParkingSimulatorCpp
+CMAKE_SOURCE_DIR = C:\Users\rahul\parkitrightupdate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rahul\ParkingSimulatorCpp\build
+CMAKE_BINARY_DIR = C:\Users\rahul\parkitrightupdate\build
 
 # Utility rule file for ParkingSimulator_autogen_timestamp_deps.
 
@@ -80,6 +80,6 @@ CMakeFiles/ParkingSimulator_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/ParkingSimulator_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/ParkingSimulator_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rahul\ParkingSimulatorCpp C:\Users\rahul\ParkingSimulatorCpp C:\Users\rahul\ParkingSimulatorCpp\build C:\Users\rahul\ParkingSimulatorCpp\build C:\Users\rahul\ParkingSimulatorCpp\build\CMakeFiles\ParkingSimulator_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rahul\parkitrightupdate C:\Users\rahul\parkitrightupdate C:\Users\rahul\parkitrightupdate\build C:\Users\rahul\parkitrightupdate\build C:\Users\rahul\parkitrightupdate\build\CMakeFiles\ParkingSimulator_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ParkingSimulator_autogen_timestamp_deps.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/ParkingSimulator.dir/ParkingSimulator_autogen/mocs_compilation.cpp.obj: \
- C:\Users\rahul\ParkingSimulatorCpp\build\ParkingSimulator_autogen\mocs_compilation.cpp \
- C:\Users\rahul\ParkingSimulatorCpp\build\ParkingSimulator_autogen\EWIEGA46WW/moc_MainWindow.cpp \
- C:/Users/rahul/ParkingSimulatorCpp/MainWindow.h \
+ C:\Users\rahul\parkitrightupdate\build\ParkingSimulator_autogen\mocs_compilation.cpp \
+ C:\Users\rahul\parkitrightupdate\build\ParkingSimulator_autogen\EWIEGA46WW/moc_MainWindow.cpp \
+ C:/Users/rahul/parkitrightupdate/MainWindow.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -387,30 +387,49 @@ CMakeFiles/ParkingSimulator.dir/ParkingSimulator_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
- C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
- C:/Qt/6.9.0/mingw_64/include/QtGui/qpainterpath.h \
- C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
- C:/Qt/6.9.0/mingw_64/include/QtCore/QVector \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qvector.h \
- C:/Users/rahul/ParkingSimulatorCpp/Parking.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/QObject \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/QSemaphore \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qsemaphore.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qdeadlinetimer.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qelapsedtimer.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QMutex \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qmutex.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qelapsedtimer.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtsan_impl.h \
+ C:/Users/rahul/parkitrightupdate/Parking.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QVector \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qvector.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QSemaphore \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qsemaphore.h \
+ C:/Users/rahul/parkitrightupdate/CustomRectangle.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsItem \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qpainterpath.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/QColor \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/q20algorithm.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/q23type_traits.h \
- C:\Users\rahul\ParkingSimulatorCpp\build\ParkingSimulator_autogen\EWIEGA46WW/moc_Parking.cpp \
- C:/Users/rahul/ParkingSimulatorCpp/Parking.h \
- C:\Users\rahul\ParkingSimulatorCpp\build\ParkingSimulator_autogen\EWIEGA46WW/moc_vehicle.cpp \
- C:/Users/rahul/ParkingSimulatorCpp/Vehicle.h \
+ C:\Users\rahul\parkitrightupdate\build\ParkingSimulator_autogen\EWIEGA46WW/moc_Parking.cpp \
+ C:/Users/rahul/parkitrightupdate/Parking.h \
+ C:\Users\rahul\parkitrightupdate\build\ParkingSimulator_autogen\EWIEGA46WW/moc_Vehicle.cpp \
+ C:/Users/rahul/parkitrightupdate/Vehicle.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QThread \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qthread.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
@@ -419,6 +438,4 @@ CMakeFiles/ParkingSimulator.dir/ParkingSimulator_autogen/mocs_compilation.cpp.ob
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
- C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
- C:/Qt/6.9.0/mingw_64/include/QtCore/qstring.h
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h

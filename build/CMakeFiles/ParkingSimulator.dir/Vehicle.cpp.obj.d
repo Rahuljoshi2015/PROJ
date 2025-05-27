@@ -1,5 +1,5 @@
 CMakeFiles/ParkingSimulator.dir/Vehicle.cpp.obj: \
- C:\Users\rahul\ParkingSimulatorCpp\Vehicle.cpp \
+ C:\Users\rahul\parkitrightupdate\Vehicle.cpp \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qcompare.h \
@@ -334,7 +334,7 @@ CMakeFiles/ParkingSimulator.dir/Vehicle.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qvarlengtharray.h \
- C:\Users\rahul\ParkingSimulatorCpp\vehicle.h \
+ C:\Users\rahul\parkitrightupdate\vehicle.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QThread \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qthread.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
@@ -351,7 +351,7 @@ CMakeFiles/ParkingSimulator.dir/Vehicle.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qstring.h \
- C:\Users\rahul\ParkingSimulatorCpp\Parking.h \
+ C:\Users\rahul\parkitrightupdate\Parking.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/QVector \

@@ -1,29 +1,24 @@
-#ifndef CUSTOMRECTANGLE_H 
+#ifndef CUSTOMRECTANGLE_H
 #define CUSTOMRECTANGLE_H
 
 #include <QGraphicsItem>
+#include <QGraphicsRectItem>
 #include <QGraphicsTextItem>
-#include <QBrush>
+#include <QColor>
+#include <QString>
 
 class CustomRectangle : public QGraphicsItem {
 public:
     CustomRectangle();
-    
-    // Set color for the rectangle
     void setColor(const QColor &color);
-
-    // Set text on the rectangle
     void setText(const QString &text);
-
-    // Override bounding rect for QGraphicsItem
     QRectF boundingRect() const override;
-
-    // Override paint for custom drawing
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
+    QGraphicsRectItem* getRect() const { return rect; } // Required for animation
 
 private:
-    QGraphicsRectItem *rect;  // Rectangle item
-    QGraphicsTextItem *label; // Label text on the rectangle
+    QGraphicsRectItem *rect;
+    QGraphicsTextItem *label;
 };
 
 #endif // CUSTOMRECTANGLE_H

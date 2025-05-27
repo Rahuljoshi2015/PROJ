@@ -1,6 +1,6 @@
 CMakeFiles/ParkingSimulator.dir/CustomRectangle.cpp.obj: \
- C:\Users\rahul\ParkingSimulatorCpp\CustomRectangle.cpp \
- C:\Users\rahul\ParkingSimulatorCpp\CustomRectangle.h \
+ C:\Users\rahul\parkitrightupdate\CustomRectangle.cpp \
+ C:\Users\rahul\parkitrightupdate\CustomRectangle.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -369,9 +369,12 @@ CMakeFiles/ParkingSimulator.dir/CustomRectangle.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
- C:/Qt/6.9.0/mingw_64/include/QtGui/QBrush \
- C:/Qt/6.9.0/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/QColor \
+ C:/Qt/6.9.0/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qtextoption.h \
@@ -382,5 +385,5 @@ CMakeFiles/ParkingSimulator.dir/CustomRectangle.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qendian.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qfontvariableaxis.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qfontmetrics.h \
- C:/Qt/6.9.0/mingw_64/include/QtGui/QFont \
- C:/Qt/6.9.0/mingw_64/include/QtGui/qfont.h
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h
